@@ -1,0 +1,20 @@
+# Compiled Lua sources
+-- Initialize arrays
+BachedarskhonaBot_Questions[2] = {['Categories'] = {}, ['Question'] = {}, ['Answers'] = {}, ['Category'] = {}, ['Points'] = {}, ['Hints'] = {}};
+
+-- List information
+BachedarskhonaBot_Questions[2]['Title'] = "General";
+BachedarskhonaBot_Questions[2]['Description'] = "BachedarskhonaBot About Anything";
+BachedarskhonaBot_Questions[2]['Author'] = "Edris Kadkhodaie (IRI) Fanouj";
+
+-- Add categories
+BachedarskhonaBot_Questions[2]['Categories'][1] = "General"; -- General stuff incl. classic
+
+-- Points: Difficulty 1: 5-9 - Difficulty 2: 10-15 - Difficulty 3: 16-20
+-- Add questions
+
+BachedarskhonaBot_Questions[2]['Question'][1] = "'5-9' پایتخت ایران کدام شهر است";
+BachedarskhonaBot_Questions[2]['Answers'][1] = {"تهران"};
+BachedarskhonaBot_Questions[2]['Category'][1] = 1;
+BachedarskhonaBot_Questions[2]['Points'][1] = 5;
+BachedarskhonaBot_Questions[2]['Hints'][1] = {};
